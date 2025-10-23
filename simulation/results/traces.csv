@@ -1,0 +1,16 @@
+cmd,compute_cycles,controller_ready,cpu_burst_end,cpu_burst_start,cpu_issue_end,cpu_issue_start,execute_issue_time,fifo_bytes,fifo_occupancy_after_submit,io_cycles,layer,micro_overhead,microprog_bytes,mode,pim_end,pim_start
+FETCH_INPUT,0,436,,,435,0,,,,151,1,,,micromanagement,587,436
+FETCH_WEIGHTS,0,1023,,,1022,587,,,,151,1,,,micromanagement,1174,1023
+COMPUTE,401,1610,,,1609,1174,,,,0,1,,,micromanagement,2011,1610
+STORE_OUTPUT,0,2447,,,2446,2011,,,,151,1,,,micromanagement,2598,2447
+FETCH_INPUT,0,3034,,,3033,2598,,,,151,2,,,micromanagement,3185,3034
+FETCH_WEIGHTS,0,3621,,,3620,3185,,,,151,2,,,micromanagement,3772,3621
+COMPUTE,401,4208,,,4207,3772,,,,0,2,,,micromanagement,4609,4208
+STORE_OUTPUT,0,5045,,,5044,4609,,,,151,2,,,micromanagement,5196,5045
+FETCH_INPUT,0,5632,,,5631,5196,,,,151,3,,,micromanagement,5783,5632
+FETCH_WEIGHTS,0,6219,,,6218,5783,,,,151,3,,,micromanagement,6370,6219
+COMPUTE,401,6806,,,6805,6370,,,,0,3,,,micromanagement,7207,6806
+STORE_OUTPUT,0,7643,,,7642,7207,,,,151,3,,,micromanagement,7794,7643
+,401,,6,0,,,6,128,1,453,1,4,32,sequencer,865,7
+,401,,717,6,,,717,128,2,453,2,4,32,sequencer,1723,865
+,401,,1575,717,,,1575,128,3,453,3,4,32,sequencer,2581,1723
