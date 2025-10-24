@@ -2,6 +2,11 @@
 
 **Accelerator / Simulation framework for comparing micromanagement vs hardware sequencer**
 
+## TL;DR
+### PIM_NN — Processing-In-Memory Neural Primitives (SystemVerilog)
+- **What:** Proof-of-concept SystemVerilog RTL implementing PIM-style neural building blocks and testbenches for verification.
+- **Goal / Value:** Rapidly evaluates near-memory compute primitives, memory-bound NN kernels, and microarchitectural PIM tradeoffs; serves as a starting point for synthesizable PIM datapath development and DRAM-aware accelerator explorations.
+- **Status:** Functional verification RTL + TBs provided; recommended next steps: pipeline the datapath, add multi-cycle units (dividers, accumulators), and map heavy ops to DSP/BRAM for synthesis.
 ---
 
 ## What this repo contains
