@@ -177,9 +177,13 @@ Tune them in `main_sim.py` and re-run the sweep to explore sensitivity.
 ---
 
 
-## Contact / Attribution
+## Authorship
 
-Maintainer: Kush Kapoor (project owner). For questions about calibration or reproducing RTL numbers,
-open an issue or message me with the exact `main_sim.py` commit and the `simulation/results/*` artifacts.
+**Project:** Reconfigurable Near-Memory Neural Primitives
+
+**Author:** Kush Kapoor
+
+Artifacts as part of research assistance under **Prof Dr. Deva Nand** at **Computing Systems Lab (DTU)**
+
 
 ---
