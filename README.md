@@ -182,4 +182,5 @@ Tune them in `main_sim.py` and re-run the sweep to explore sensitivity.
 **Project:** Reconfigurable Near-Memory Neural Primitives
 
 **Author:** Kush Kapoor
+
 ---
